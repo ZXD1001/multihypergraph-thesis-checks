@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-24",
+  "version": "0.1.0",
+  "status": "validated for release v0.1.0",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Darwin",
+  "machine": "arm64",
+  "checks_passed": 10,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "id": "E01",
+      "status": "PASS",
+      "elapsed_seconds": 0.3117,
+      "script_sha256": "874d410506be6fa77b3c587205842c2562f7223a5f4751c2abfc13d93df881fe",
+      "result_sha256": "a8514b8dc5baf8a62f6eea03e06375e95322c9b4b39dd738a1fb515f7f4aeb63"
+    },
+    {
+      "id": "E02",
+      "status": "PASS",
+      "elapsed_seconds": 0.0607,
+      "script_sha256": "e73c44ce24f384ad010a08cb5e53501230c0743277c890ab7c87314fd2d453b7",
+      "result_sha256": "b2415495ed5ddbae1aabf5760eb393d5ea63978e60a35ca40b6d40a1f0a795d5"
+    },
+    {
+      "id": "E03",
+      "status": "PASS",
+      "elapsed_seconds": 0.0513,
+      "script_sha256": "b6ab66c4a8c0bb911756a250c1c55205c4f42f92651ce0730cfa0cd3fcda20d4",
+      "result_sha256": "25c3c42ec9bb9d8501429835a5a6331e6fb80664a97efa2fd31a5dc9fbe4d28f"
+    },
+    {
+      "id": "E04",
+      "status": "PASS",
+      "elapsed_seconds": 0.052,
+      "script_sha256": "7d689eaa808c00ccf5fc10d26f0137e8acf92ed2f6a1f1a48fa7b0fb483ba5c0",
+      "result_sha256": "99a9bb4e396ebfe9c194d487662f408fac891319c32cc12dcc15fe3a61514783"
+    },
+    {
+      "id": "E05",
+      "status": "PASS",
+      "elapsed_seconds": 0.0737,
+      "script_sha256": "b4eb293a379523c3c2d11696bd0b5e854258fd4c109adbc37afabd477dc39313",
+      "result_sha256": "769d4f9431ff590b073491a3e01121dab4a03d6c8f13b1f50791fc9ca9e38fe6"
+    },
+    {
+      "id": "E06",
+      "status": "PASS",
+      "elapsed_seconds": 0.0527,
+      "script_sha256": "620edd250e9ca9a58e28c965670ecfc4d9680d30733a16d9aba3a152a9bd3a13",
+      "result_sha256": "fde01d0386dcdf82ba7c5c834690da61c75363d19013e062abf7cfa58bc20772"
+    },
+    {
+      "id": "L05",
+      "status": "PASS",
+      "elapsed_seconds": 0.2025,
+      "script_sha256": "98b3b975ff3403919f9c871e562f1cfea7bb7f4ac8106824c7502dce4e2dad1c",
+      "result_sha256": "9c3ea202b431138f7e6fdb815daefefe150179fc293ca6c03a7419dcfbd3228b"
+    },
+    {
+      "id": "L346",
+      "status": "PASS",
+      "elapsed_seconds": 0.2278,
+      "script_sha256": "0adf7ae7b59e90371de02b5ae8028914c3d719488a554b1fe72288be30b58d7b",
+      "result_sha256": "15f138532af61bf02b2b48bd3a427c3a0321f39a8f4b62b8162127dee6118202"
+    },
+    {
+      "id": "CH34",
+      "status": "PASS",
+      "elapsed_seconds": 0.048,
+      "script_sha256": "9acd1dadc0e765aa9212cd78295f0af169324b113aef3142674b0efcb597c55f",
+      "result_sha256": "f624abbd550c2c6497a9d8bda58700cf139899f779f828836480db6c4f7a2513"
+    },
+    {
+      "id": "ALG_A",
+      "status": "PASS",
+      "elapsed_seconds": 0.0396,
+      "script_sha256": "80b742b39d1149d01d084a88ab10059eb963a01469ff6bc37ed1c81988e103c6",
+      "result_sha256": "e7cd49e4e4d6fe94ac1009ff70ed1003df383a9ab930e515f2719896621db293"
+    }
+  ],
+  "entry_point_acceptance_tests": [
+    {
+      "test": "signed_zero_matches",
+      "passed": true
+    },
+    {
+      "test": "signed_zero_combines_split_multiplicities",
+      "passed": true
+    },
+    {
+      "test": "integers_are_exact",
+      "passed": true
+    },
+    {
+      "test": "booleans_are_not_integer_aliases",
+      "passed": true
+    },
+    {
+      "test": "missing_and_extra_keys_rejected",
+      "passed": true
+    },
+    {
+      "test": "float_nan_rejected",
+      "passed": true
+    },
+    {
+      "test": "E04_correct",
+      "passed": true
+    },
+    {
+      "test": "E04_wrong_rank",
+      "passed": true
+    },
+    {
+      "test": "E04_wrong_spectrum",
+      "passed": true
+    },
+    {
+      "test": "E04_wrong_trace",
+      "passed": true
+    },
+    {
+      "test": "E04_wrong_wigner_min",
+      "passed": true
+    },
+    {
+      "test": "E04_wrong_wigner_sum",
+      "passed": true
+    },
+    {
+      "test": "E04_wrong_branch_effect",
+      "passed": true
+    },
+    {
+      "test": "E04_wrong_unasserted_probability",
+      "passed": true
+    },
+    {
+      "test": "E04_wrong_q",
+      "passed": true
+    },
+    {
+      "test": "E04_missing_field",
+      "passed": true
+    },
+    {
+      "test": "E04_nonfinite",
+      "passed": true
+    },
+    {
+      "test": "E04_extra_key",
+      "passed": true
+    },
+    {
+      "test": "E04_explicit_diagnostic_rejects_matching_wrong_reference",
+      "passed": true
+    },
+    {
+      "test": "all_ten_independent_run",
+      "passed": true
+    },
+    {
+      "test": "existing_output_refused",
+      "passed": true
+    },
+    {
+      "test": "repository_output_refused",
+      "passed": true
+    },
+    {
+      "test": "optimization_refused",
+      "passed": true
+    },
+    {
+      "test": "protected_code_and_references_unchanged",
+      "passed": true
+    }
+  ],
+  "interpretation": "Reproduction of stated finite checks with archived mathematical outputs. Not an independent proof of all thesis theorems.",
+  "release_date": "2026-11-24",
+  "repository": "https://github.com/ZXD1001/multihypergraph-thesis-checks",
+  "release_url": "https://github.com/ZXD1001/multihypergraph-thesis-checks/releases/tag/v0.1.0"
+}

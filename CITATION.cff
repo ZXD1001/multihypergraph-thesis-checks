@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these finite checks, please cite the software version and the associated thesis."
+type: software
+title: "Finite computational checks for multihypergraph states and quantum secret sharing"
+authors:
+  - family-names: Zhang
+    given-names: Xiaodong
+version: 0.1.0
+date-released: 2026-11-24
+repository-code: "https://github.com/ZXD1001/multihypergraph-thesis-checks"
+url: "https://github.com/ZXD1001/multihypergraph-thesis-checks/releases/tag/v0.1.0"
+license: MIT
+abstract: "Fixed finite checks accompanying the thesis 多重超图态及其在量子秘密共享中的应用研究. Includes parameter recovery, verification effects and sample counts, a six-party sharing instance, and phase-library certificates."
+keywords:
+  - quantum information
+  - multihypergraph states
+  - quantum secret sharing
+  - finite verification

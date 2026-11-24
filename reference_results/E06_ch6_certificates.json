@@ -1,0 +1,29 @@
+{
+  "rows": 125,
+  "B_shape": [
+    125,
+    25
+  ],
+  "B_nonzeros": 625,
+  "D23_cyclic_checks": 25,
+  "D27_yB_zero_mod5": true,
+  "D27_yJ_zero_mod5": true,
+  "D27_y_minus_delta_h_mod5": 1,
+  "D27_yB_exact_integer_zero": false,
+  "D27_yB_integer_max": 30,
+  "polynomial_direction_ranks": [
+    2,
+    3,
+    4
+  ],
+  "logical_counts_from_direction_ranks": [
+    25,
+    125,
+    625
+  ],
+  "light_shift_identity_checks": 3125,
+  "light_shift_identity_all_zero": true,
+  "D10_E5_match": true,
+  "D11_U012_match": true,
+  "D12_T34_match": true
+}

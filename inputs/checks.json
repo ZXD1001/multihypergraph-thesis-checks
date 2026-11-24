@@ -1,0 +1,104 @@
+[
+  {
+    "id": "E01",
+    "script": "checks/examples/E01_ch3.py",
+    "description": "有限维态族与零多项式",
+    "result": "stdout",
+    "reference": "reference_results/E01_ch3.json",
+    "exclude_fields": []
+  },
+  {
+    "id": "E02",
+    "script": "checks/examples/E02_ch4.py",
+    "description": "三qutrit测试效应、谱及样本数",
+    "result": "stdout",
+    "reference": "reference_results/E02_ch4.json",
+    "exclude_fields": [
+      "source_sha256",
+      "source_hashes_unchanged"
+    ]
+  },
+  {
+    "id": "E03",
+    "script": "checks/examples/E03_ch5_counterexamples.py",
+    "description": "Choi、固定态与份额隐私反例",
+    "result": "stdout",
+    "reference": "reference_results/E03_ch5_counterexamples.json",
+    "exclude_fields": []
+  },
+  {
+    "id": "E04",
+    "script": "checks/examples/E04_ch5_branch.py",
+    "description": "两分支信道的Choi与Wigner诊断",
+    "result": "stdout",
+    "reference": "reference_results/E04_ch5_branch.json",
+    "exclude_fields": []
+  },
+  {
+    "id": "E05",
+    "script": "checks/examples/E05_ch6_privacy.py",
+    "description": "两组量子多项式编码的等距与隐私",
+    "result": "stdout",
+    "reference": "reference_results/E05_ch6_privacy.json",
+    "exclude_fields": []
+  },
+  {
+    "id": "E06",
+    "script": "checks/examples/E06_ch6_certificates.py",
+    "description": "五方门库证书与求值/恢复矩阵",
+    "result": "stdout",
+    "reference": "reference_results/E06_ch6_certificates.json",
+    "exclude_fields": []
+  },
+  {
+    "id": "L05",
+    "script": "checks/local/local_ch5.py",
+    "description": "六方三层访问、原始记录及资源计数",
+    "result": "local_ch5.json",
+    "reference": "reference_results/local_ch5.json",
+    "exclude_fields": [
+      "identity",
+      "python",
+      "source_sha256",
+      "not_proved"
+    ]
+  },
+  {
+    "id": "L346",
+    "script": "checks/local/local_ch346.py",
+    "description": "四个固定编码的62500个位移—目标组合",
+    "result": "local_ch346.json",
+    "reference": "reference_results/local_ch346.json",
+    "exclude_fields": [
+      "origin"
+    ]
+  },
+  {
+    "id": "CH34",
+    "script": "checks/ch34/replay_ch34.py",
+    "description": "参数反求、普通超图接受效应及样本表",
+    "args": [
+      "--output-dir",
+      "details"
+    ],
+    "result": "details/ch34_checks.json",
+    "reference": "reference_results/ch34_checks.json",
+    "exclude_fields": []
+  },
+  {
+    "id": "ALG_A",
+    "script": "checks/algorithm_a/algorithm_a_weights_check.py",
+    "description": "算法A两组参数的968行完整相位核验",
+    "args": [
+      "--output",
+      "algorithm_a_weights_result.json"
+    ],
+    "result": "algorithm_a_weights_result.json",
+    "reference": "reference_results/algorithm_a_weights_result.json",
+    "exclude_fields": [
+      "scope",
+      "python",
+      "script_sha256"
+    ]
+  }
+]

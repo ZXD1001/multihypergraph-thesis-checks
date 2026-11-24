@@ -1,0 +1,2 @@
+# Tested on CPython 3.12.14. All other dependencies are in the standard library.
+numpy==2.3.5

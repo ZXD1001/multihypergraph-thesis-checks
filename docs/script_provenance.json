@@ -1,0 +1,102 @@
+[
+  {
+    "id": "E01",
+    "archive_script_name": "E01_ch3.py",
+    "archive_script_sha256": "278285eab378d6b799ef6f6428586c41007bfba2c8465fef30809edce37ba4c3",
+    "script": "checks/examples/E01_ch3.py",
+    "adapted_script_sha256": "874d410506be6fa77b3c587205842c2562f7223a5f4751c2abfc13d93df881fe",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 7,
+    "original_assertions_preserved": true
+  },
+  {
+    "id": "E02",
+    "archive_script_name": "E02_ch4.py",
+    "archive_script_sha256": "0d9177092166e91a256e481107f5d20976055272b7d59d7c3e6ecd930a415bfc",
+    "script": "checks/examples/E02_ch4.py",
+    "adapted_script_sha256": "e73c44ce24f384ad010a08cb5e53501230c0743277c890ab7c87314fd2d453b7",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 6,
+    "original_assertions_preserved": true
+  },
+  {
+    "id": "E03",
+    "archive_script_name": "E03_ch5_counterexamples.py",
+    "archive_script_sha256": "7d17c7ac53ae03ff59d8b8acbf3eaf0742a3ce39008602af4feff611381ff74d",
+    "script": "checks/examples/E03_ch5_counterexamples.py",
+    "adapted_script_sha256": "b6ab66c4a8c0bb911756a250c1c55205c4f42f92651ce0730cfa0cd3fcda20d4",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 3,
+    "original_assertions_preserved": true
+  },
+  {
+    "id": "E04",
+    "archive_script_name": "E04_ch5_branch.py",
+    "archive_script_sha256": "8cdee06cf345ae300ca7c0ab356334fbeefd5a224dc56e959004394ca2549668",
+    "script": "checks/examples/E04_ch5_branch.py",
+    "adapted_script_sha256": "7d689eaa808c00ccf5fc10d26f0137e8acf92ed2f6a1f1a48fa7b0fb483ba5c0",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 0,
+    "original_assertions_preserved": true
+  },
+  {
+    "id": "E05",
+    "archive_script_name": "E05_ch6_privacy.py",
+    "archive_script_sha256": "ef4a6c17213aeafcb49acfd72d3c6eca49398be6bd24e71dfa4cc0232c2ddfdc",
+    "script": "checks/examples/E05_ch6_privacy.py",
+    "adapted_script_sha256": "b4eb293a379523c3c2d11696bd0b5e854258fd4c109adbc37afabd477dc39313",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 1,
+    "original_assertions_preserved": true
+  },
+  {
+    "id": "E06",
+    "archive_script_name": "E06_ch6_certificates.py",
+    "archive_script_sha256": "d94bc9b0637390e5eeaba743a24d2be9452d22a504ed21a356496aa6bfcf1726",
+    "script": "checks/examples/E06_ch6_certificates.py",
+    "adapted_script_sha256": "620edd250e9ca9a58e28c965670ecfc4d9680d30733a16d9aba3a152a9bd3a13",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 4,
+    "original_assertions_preserved": true
+  },
+  {
+    "id": "L05",
+    "archive_script_name": "local_ch5.py",
+    "archive_script_sha256": "c4636115d13fc11da4ca4419a461b9e24a4033b6e12e09966f7e15add1c62395",
+    "script": "checks/local/local_ch5.py",
+    "adapted_script_sha256": "98b3b975ff3403919f9c871e562f1cfea7bb7f4ac8106824c7502dce4e2dad1c",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 24,
+    "original_assertions_preserved": true
+  },
+  {
+    "id": "L346",
+    "archive_script_name": "local_ch346.py",
+    "archive_script_sha256": "6b4bcd10a5456fe0d0739d95f1a6100967b39ab2002959f014011f42a3656b99",
+    "script": "checks/local/local_ch346.py",
+    "adapted_script_sha256": "0adf7ae7b59e90371de02b5ae8028914c3d719488a554b1fe72288be30b58d7b",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 11,
+    "original_assertions_preserved": true
+  },
+  {
+    "id": "CH34",
+    "archive_script_name": "replay_ch34.py",
+    "archive_script_sha256": "14d57283df4db4e4286994ced300f14a86f6b237e71ba581e5a7d51d2830caac",
+    "script": "checks/ch34/replay_ch34.py",
+    "adapted_script_sha256": "9acd1dadc0e765aa9212cd78295f0af169324b113aef3142674b0efcb597c55f",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 8,
+    "original_assertions_preserved": true
+  },
+  {
+    "id": "ALG_A",
+    "archive_script_name": "algorithm_a_weights_check.py",
+    "archive_script_sha256": "47fba19171fbc419f8a450f6325e280ed353a94aa271480052e96f2ac54c13a8",
+    "script": "checks/algorithm_a/algorithm_a_weights_check.py",
+    "adapted_script_sha256": "80b742b39d1149d01d084a88ab10059eb963a01469ff6bc37ed1c81988e103c6",
+    "shared_named_non_main_functions_unchanged": true,
+    "original_assertion_count": 8,
+    "original_assertions_preserved": true
+  }
+]

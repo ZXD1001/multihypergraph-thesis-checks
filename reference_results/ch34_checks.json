@@ -1,0 +1,1740 @@
+{
+  "scope": "four fixed parameter-recovery examples, two ordinary-HG blocks, four sample rows; not a universal implementation or proof",
+  "recovery": [
+    {
+      "case": "q3_single_system",
+      "source_label": "eq:ch03-q3-one-variable",
+      "q": 3,
+      "n": 1,
+      "function_table": [
+        {
+          "x": [
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            2
+          ],
+          "value": 0
+        }
+      ],
+      "recovered": [
+        {
+          "exponent": [
+            1
+          ],
+          "coefficient": 2
+        },
+        {
+          "exponent": [
+            2
+          ],
+          "coefficient": 2
+        }
+      ],
+      "blocks": [
+        {
+          "support": [
+            0
+          ],
+          "tuple_order": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "residual": [
+            1,
+            0
+          ],
+          "coefficients": [
+            2,
+            2
+          ]
+        }
+      ],
+      "full_back_substitution_points": 3,
+      "expected_coefficients_match": true
+    },
+    {
+      "case": "q3_two_systems_delta",
+      "source_label": "app:w1-ordinary-hypergraph-constraints",
+      "q": 3,
+      "n": 2,
+      "function_table": [
+        {
+          "x": [
+            0,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            2
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1,
+            0
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            1,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1,
+            2
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            2,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            2,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            2,
+            2
+          ],
+          "value": 0
+        }
+      ],
+      "recovered": [
+        {
+          "exponent": [
+            1,
+            0
+          ],
+          "coefficient": 2
+        },
+        {
+          "exponent": [
+            2,
+            0
+          ],
+          "coefficient": 2
+        },
+        {
+          "exponent": [
+            0,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            2
+          ],
+          "coefficient": 1
+        },
+        {
+          "exponent": [
+            2,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            2
+          ],
+          "coefficient": 1
+        }
+      ],
+      "blocks": [
+        {
+          "support": [
+            0
+          ],
+          "tuple_order": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "residual": [
+            1,
+            0
+          ],
+          "coefficients": [
+            2,
+            2
+          ]
+        },
+        {
+          "support": [
+            1
+          ],
+          "tuple_order": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            0,
+            1
+          ],
+          "tuple_order": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "residual": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "full_back_substitution_points": 9,
+      "expected_coefficients_match": true
+    },
+    {
+      "case": "q3_three_systems_mg",
+      "source_label": "eq:ch03-fig32-mg-polynomial",
+      "q": 3,
+      "n": 3,
+      "function_table": [
+        {
+          "x": [
+            0,
+            0,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            0,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            0,
+            2
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            1,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            1,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            2,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            2,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            2,
+            2
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1,
+            0,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1,
+            0,
+            1
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            1,
+            0,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            1,
+            1,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            1,
+            1,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1,
+            1,
+            2
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            1,
+            2,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1,
+            2,
+            1
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            1,
+            2,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            2,
+            0,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            2,
+            0,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            2,
+            0,
+            2
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            2,
+            1,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            2,
+            1,
+            1
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            2,
+            1,
+            2
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            2,
+            2,
+            0
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            2,
+            2,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            2,
+            2,
+            2
+          ],
+          "value": 2
+        }
+      ],
+      "recovered": [
+        {
+          "exponent": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            0,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "exponent": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": 2
+        },
+        {
+          "exponent": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            2,
+            0
+          ],
+          "coefficient": 2
+        },
+        {
+          "exponent": [
+            1,
+            0,
+            1
+          ],
+          "coefficient": 1
+        },
+        {
+          "exponent": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            0,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            1,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": 0
+        }
+      ],
+      "blocks": [
+        {
+          "support": [
+            0
+          ],
+          "tuple_order": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            1
+          ],
+          "tuple_order": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            2
+          ],
+          "tuple_order": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            0,
+            1
+          ],
+          "tuple_order": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "residual": [
+            2,
+            0,
+            2,
+            1
+          ],
+          "coefficients": [
+            1,
+            2,
+            0,
+            2
+          ]
+        },
+        {
+          "support": [
+            0,
+            2
+          ],
+          "tuple_order": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "residual": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "coefficients": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            1,
+            2
+          ],
+          "tuple_order": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            0,
+            1,
+            2
+          ],
+          "tuple_order": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "full_back_substitution_points": 27,
+      "expected_coefficients_match": true
+    },
+    {
+      "case": "q3_three_systems_mhg",
+      "source_label": "eq:ch03-fig32-mhg-polynomial",
+      "q": 3,
+      "n": 3,
+      "function_table": [
+        {
+          "x": [
+            0,
+            0,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            0,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            0,
+            0,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            0,
+            1,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            1,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            0,
+            1,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            0,
+            2,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            0,
+            2,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            0,
+            2,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            1,
+            0,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1,
+            0,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            1,
+            0,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            1,
+            1,
+            0
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            1,
+            1,
+            1
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            1,
+            1,
+            2
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1,
+            2,
+            0
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            1,
+            2,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            1,
+            2,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            2,
+            0,
+            0
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            2,
+            0,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            2,
+            0,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            2,
+            1,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            2,
+            1,
+            1
+          ],
+          "value": 1
+        },
+        {
+          "x": [
+            2,
+            1,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            2,
+            2,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "x": [
+            2,
+            2,
+            1
+          ],
+          "value": 0
+        },
+        {
+          "x": [
+            2,
+            2,
+            2
+          ],
+          "value": 1
+        }
+      ],
+      "recovered": [
+        {
+          "exponent": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            0,
+            2
+          ],
+          "coefficient": 2
+        },
+        {
+          "exponent": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": 1
+        },
+        {
+          "exponent": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            2,
+            0
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            0,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            0,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            1,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": 2
+        },
+        {
+          "exponent": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": 2
+        },
+        {
+          "exponent": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": 0
+        },
+        {
+          "exponent": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": 0
+        }
+      ],
+      "blocks": [
+        {
+          "support": [
+            0
+          ],
+          "tuple_order": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            1
+          ],
+          "tuple_order": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            2
+          ],
+          "tuple_order": [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "residual": [
+            2,
+            2
+          ],
+          "coefficients": [
+            0,
+            2
+          ]
+        },
+        {
+          "support": [
+            0,
+            1
+          ],
+          "tuple_order": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "residual": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "coefficients": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            0,
+            2
+          ],
+          "tuple_order": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            1,
+            2
+          ],
+          "tuple_order": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "residual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficients": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "support": [
+            0,
+            1,
+            2
+          ],
+          "tuple_order": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              2
+            ]
+          ],
+          "residual": [
+            1,
+            0,
+            0,
+            2,
+            0,
+            1,
+            2,
+            0
+          ],
+          "coefficients": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ]
+        }
+      ],
+      "full_back_substitution_points": 27,
+      "expected_coefficients_match": true
+    }
+  ],
+  "ordinary_hg_effects": {
+    "q": 3,
+    "n": 3,
+    "target": "F(x)=x0*x1",
+    "blocks": [
+      {
+        "A": [
+          0,
+          2
+        ],
+        "B": [
+          1
+        ],
+        "checked_entries": 729,
+        "nonzero_entries": 243,
+        "common_denominator": 9,
+        "exact_root_exponents_equal_mod3": true
+      },
+      {
+        "A": [
+          1
+        ],
+        "B": [
+          0,
+          2
+        ],
+        "checked_entries": 729,
+        "nonzero_entries": 81,
+        "common_denominator": 3,
+        "exact_root_exponents_equal_mod3": true
+      }
+    ],
+    "interpretation": "fixed-target exact matrix-entry comparison; general equality uses the analytic reduction"
+  },
+  "spectra_samples": [
+    {
+      "case": "two_blocks_p_010",
+      "p": "1/10",
+      "spectrum_multiplicities": {
+        "1": 1,
+        "9/10": 8,
+        "1/10": 2,
+        "0": 16
+      },
+      "gap": "1/10",
+      "epsilon": "1/100",
+      "delta": "1/20",
+      "N": 2995,
+      "N_and_Nminus1_checked_by_integer_powers": true,
+      "simplified_sufficient_N": 2996,
+      "simplified_real_at_decimal_precision80": "2995.7322735539909934352235761425407756766016229890282301540079104609662316470472"
+    },
+    {
+      "case": "two_blocks_p_025",
+      "p": "1/4",
+      "spectrum_multiplicities": {
+        "1": 1,
+        "3/4": 8,
+        "1/4": 2,
+        "0": 16
+      },
+      "gap": "1/4",
+      "epsilon": "1/100",
+      "delta": "1/20",
+      "N": 1197,
+      "N_and_Nminus1_checked_by_integer_powers": true,
+      "simplified_sufficient_N": 1199,
+      "simplified_real_at_decimal_precision80": "1198.2929094215963973740894304570163102706406491956112920616031641843864926588189"
+    },
+    {
+      "case": "two_blocks_equal",
+      "p": "1/2",
+      "spectrum_multiplicities": {
+        "1": 1,
+        "1/2": 10,
+        "0": 16
+      },
+      "gap": "1/2",
+      "epsilon": "1/100",
+      "delta": "1/20",
+      "N": 598,
+      "N_and_Nminus1_checked_by_integer_powers": true,
+      "simplified_sufficient_N": 600,
+      "simplified_real_at_decimal_precision80": "599.14645471079819868704471522850815513532032459780564603080158209219324632940944"
+    },
+    {
+      "case": "three_singletons_equal",
+      "p": null,
+      "spectrum_multiplicities": {
+        "1": 1,
+        "2/3": 6,
+        "1/3": 12,
+        "0": 8
+      },
+      "gap": "1/3",
+      "epsilon": "1/100",
+      "delta": "1/20",
+      "N": 898,
+      "N_and_Nminus1_checked_by_integer_powers": true,
+      "simplified_sufficient_N": 899,
+      "simplified_real_at_decimal_precision80": "898.71968206619729803056707284276223270298048689670846904620237313828986949411416"
+    }
+  ]
+}

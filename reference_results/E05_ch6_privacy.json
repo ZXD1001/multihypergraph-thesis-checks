@@ -1,0 +1,24 @@
+[
+  {
+    "q": 5,
+    "k": 2,
+    "n": 3,
+    "m": 1,
+    "phase": "deterministic random full table",
+    "seed": 20261027,
+    "cross_operator_checks": 100,
+    "max_entry_error": 2.220446049250313e-16,
+    "isometry_max_entry_error": 2.220446049250313e-16
+  },
+  {
+    "q": 5,
+    "k": 3,
+    "n": 5,
+    "m": 1,
+    "phase": "deterministic random full table",
+    "seed": 20261028,
+    "cross_operator_checks": 400,
+    "max_entry_error": 2.220446049250313e-16,
+    "isometry_max_entry_error": 2.220446049250313e-16
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "noncanonical_choi_rank": 2,
+  "nonzero_choi_eigenvalues": [
+    0.49999999999999994,
+    0.49999999999999994
+  ],
+  "choi_reference_marginal_error": 2.7755575615628914e-17,
+  "unrecorded_twirl_magic_fixed_error": 3.510833468576701e-16,
+  "unrecorded_twirl_offdiagonal_norm": 7.879858755081777e-16,
+  "key_view_max_difference": 0.0,
+  "cipher_view_max_difference": 0.0,
+  "all_secret_recovery_probabilities": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "E01",
+    "archive_result_name": "E01_ch3.json",
+    "archive_result_sha256": "49ff39961f39225aa13046b3686e107d8cb1eb8cc242ac270ac23dc0074cab6d",
+    "reference": "reference_results/E01_ch3.json",
+    "reference_sha256": "a8514b8dc5baf8a62f6eea03e06375e95322c9b4b39dd738a1fb515f7f4aeb63",
+    "excluded_top_level_fields": [],
+    "normalization": "none"
+  },
+  {
+    "id": "E02",
+    "archive_result_name": "E02_ch4.json",
+    "archive_result_sha256": "f85cd9d2c9c2eceb839c99917676405aa9e7ed68a40ba66913c519a4f65298e1",
+    "reference": "reference_results/E02_ch4.json",
+    "reference_sha256": "b2415495ed5ddbae1aabf5760eb393d5ea63978e60a35ca40b6d40a1f0a795d5",
+    "excluded_top_level_fields": [
+      "source_sha256",
+      "source_hashes_unchanged"
+    ],
+    "normalization": "E02 signed zero spectrum key only"
+  },
+  {
+    "id": "E03",
+    "archive_result_name": "E03_ch5_counterexamples.json",
+    "archive_result_sha256": "08ff5fb4b9c86613387d9237f1779cd1b54a60fb8d0de75ef01cb7b2ff9eb9ab",
+    "reference": "reference_results/E03_ch5_counterexamples.json",
+    "reference_sha256": "25c3c42ec9bb9d8501429835a5a6331e6fb80664a97efa2fd31a5dc9fbe4d28f",
+    "excluded_top_level_fields": [],
+    "normalization": "none"
+  },
+  {
+    "id": "E04",
+    "archive_result_name": "E04_ch5_branch.json",
+    "archive_result_sha256": "260d97aa05e7b67eb8214aa737ddcc1c96c2c0a5f05ef0cedb911bd967c77e34",
+    "reference": "reference_results/E04_ch5_branch.json",
+    "reference_sha256": "99a9bb4e396ebfe9c194d487662f408fac891319c32cc12dcc15fe3a61514783",
+    "excluded_top_level_fields": [],
+    "normalization": "none"
+  },
+  {
+    "id": "E05",
+    "archive_result_name": "E05_ch6_privacy.json",
+    "archive_result_sha256": "a3326c8c98d3077153cedfeb08a51abd6835227fdd7a9dcae792058bec2a5113",
+    "reference": "reference_results/E05_ch6_privacy.json",
+    "reference_sha256": "769d4f9431ff590b073491a3e01121dab4a03d6c8f13b1f50791fc9ca9e38fe6",
+    "excluded_top_level_fields": [],
+    "normalization": "none"
+  },
+  {
+    "id": "E06",
+    "archive_result_name": "E06_ch6_certificates.json",
+    "archive_result_sha256": "a9ea98711a75dd9ee4a2389ac51588d267d8dfe2db10029855d40ef390a135d3",
+    "reference": "reference_results/E06_ch6_certificates.json",
+    "reference_sha256": "fde01d0386dcdf82ba7c5c834690da61c75363d19013e062abf7cfa58bc20772",
+    "excluded_top_level_fields": [],
+    "normalization": "none"
+  },
+  {
+    "id": "L05",
+    "archive_result_name": "local_ch5.json",
+    "archive_result_sha256": "284e6675a6555936c08618f6b82f1c0439291417976e7166c782f3ab4da8317a",
+    "reference": "reference_results/local_ch5.json",
+    "reference_sha256": "9c3ea202b431138f7e6fdb815daefefe150179fc293ca6c03a7419dcfbd3228b",
+    "excluded_top_level_fields": [
+      "identity",
+      "python",
+      "source_sha256",
+      "not_proved"
+    ],
+    "normalization": "none"
+  },
+  {
+    "id": "L346",
+    "archive_result_name": "local_ch346.json",
+    "archive_result_sha256": "45a2553346539e85c59a0c549d2a0a4573d589fc71c86ad6b5ea798347d143ba",
+    "reference": "reference_results/local_ch346.json",
+    "reference_sha256": "15f138532af61bf02b2b48bd3a427c3a0321f39a8f4b62b8162127dee6118202",
+    "excluded_top_level_fields": [
+      "origin"
+    ],
+    "normalization": "none"
+  },
+  {
+    "id": "CH34",
+    "archive_result_name": "ch34_checks.json",
+    "archive_result_sha256": "f624abbd550c2c6497a9d8bda58700cf139899f779f828836480db6c4f7a2513",
+    "reference": "reference_results/ch34_checks.json",
+    "reference_sha256": "f624abbd550c2c6497a9d8bda58700cf139899f779f828836480db6c4f7a2513",
+    "excluded_top_level_fields": [],
+    "normalization": "none"
+  },
+  {
+    "id": "ALG_A",
+    "archive_result_name": "algorithm_a_weights_result.json",
+    "archive_result_sha256": "25153904556d1000dd743808c4c2d35e50cf502e0edb8ed524a60d773e025d79",
+    "reference": "reference_results/algorithm_a_weights_result.json",
+    "reference_sha256": "e7cd49e4e4d6fe94ac1009ff70ed1003df383a9ab930e515f2719896621db293",
+    "excluded_top_level_fields": [
+      "scope",
+      "python",
+      "script_sha256"
+    ],
+    "normalization": "none"
+  }
+]

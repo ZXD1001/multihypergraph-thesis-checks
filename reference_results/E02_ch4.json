@@ -1,0 +1,14 @@
+{
+  "checked": "3-qutrit actual joint effects for all second-layer outcomes; weighted spectrum; sample ceiling",
+  "max_operator_norm_residual": 1.0362136856320327e-15,
+  "equal_weight_spectrum": {
+    "0.0": 16,
+    "0.5": 10,
+    "1.0": 1
+  },
+  "exact_N": 598,
+  "simplified_N": 600,
+  "allpass_bound_N598": 0.04991169123005856,
+  "allpass_bound_N597": 0.05016250374880256,
+  "correlated_counterexample_allpass_lower_bound": 0.99
+}

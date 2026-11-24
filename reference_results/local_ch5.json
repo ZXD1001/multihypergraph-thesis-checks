@@ -1,0 +1,360 @@
+{
+  "q": 5,
+  "L": 3,
+  "permission_counts": [
+    48,
+    12,
+    3,
+    1
+  ],
+  "proper_top_affine_rank_checks": 63,
+  "complete_view_representation_checks": 8000,
+  "view_scope": "exact Bell-label distributions plus analytic trace/rank and inverse-Clifford density representation; not full 5^10 density matrices",
+  "fixed_secret_for_history_count": [
+    1,
+    2,
+    4
+  ],
+  "history_count": 390625,
+  "raw_global_record_count": 15625,
+  "hidden_RT_preimages_per_record": [
+    25
+  ],
+  "fixed_masks_outcome_count": 125,
+  "phase_identity_checks": 3125,
+  "m": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+  ],
+  "c": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+  ],
+  "N": 10,
+  "C": 4,
+  "top_rank_details": [
+    {
+      "mask": 0,
+      "registers": 0,
+      "rank": 0
+    },
+    {
+      "mask": 1,
+      "registers": 1,
+      "rank": 1
+    },
+    {
+      "mask": 2,
+      "registers": 1,
+      "rank": 1
+    },
+    {
+      "mask": 3,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 4,
+      "registers": 1,
+      "rank": 1
+    },
+    {
+      "mask": 5,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 6,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 7,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 8,
+      "registers": 1,
+      "rank": 1
+    },
+    {
+      "mask": 9,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 10,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 11,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 12,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 13,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 14,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 15,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 16,
+      "registers": 1,
+      "rank": 1
+    },
+    {
+      "mask": 17,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 18,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 19,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 20,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 21,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 22,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 23,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 24,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 25,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 26,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 27,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 28,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 29,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 30,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 31,
+      "registers": 5,
+      "rank": 5
+    },
+    {
+      "mask": 32,
+      "registers": 1,
+      "rank": 1
+    },
+    {
+      "mask": 33,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 34,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 35,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 36,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 37,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 38,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 39,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 40,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 41,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 42,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 43,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 44,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 45,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 46,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 47,
+      "registers": 5,
+      "rank": 5
+    },
+    {
+      "mask": 48,
+      "registers": 2,
+      "rank": 2
+    },
+    {
+      "mask": 49,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 50,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 51,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 52,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 53,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 54,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 55,
+      "registers": 5,
+      "rank": 5
+    },
+    {
+      "mask": 56,
+      "registers": 3,
+      "rank": 3
+    },
+    {
+      "mask": 57,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 58,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 59,
+      "registers": 5,
+      "rank": 5
+    },
+    {
+      "mask": 60,
+      "registers": 4,
+      "rank": 4
+    },
+    {
+      "mask": 61,
+      "registers": 5,
+      "rank": 5
+    },
+    {
+      "mask": 62,
+      "registers": 5,
+      "rank": 5
+    }
+  ]
+}
